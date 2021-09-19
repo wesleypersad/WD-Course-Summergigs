@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Summer Gigs Newsletter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="summer gigs website 2019"/>
+    <meta name="keywords" content="gigs, concerts, beach boys, lenyrd skynyrd, billy ocean, kiss, zz top, pictures, videos"/>
+    <meta name="robots" content="venues"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Adamina|Andada" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <div class="page-header header-title">
+            <h1>Summer Gigs Newsletter</h1>
+            <h2>This website describes some of the great concerts we attended in summer 2019.</h2>
+        </div>
+
+        <div class="header-login-signup" title="Sign up/Login for exclusive content !!!">
+            <a href="#">Login</a> / <a href="#">Sign Up</a>
+            <a href="#"><img src="img/user-icon.png" alt="My Account" title="My Account" alt="user login"></a>
+        </div>
+        <br>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/timeout.GIF" alt="Time Out logo">
+                </a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bands.html">Bands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="venues.html">Venues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-flex-container">
+            <div class="header-breadcrumbs-container">
+                <a href="index.html">Home</a> > Venues
+            </div>
+        </div>
+    </header>
+
+    <br>
+    
+
+    <div class="container  border border-info">
+        <h2>List of Venues</h2>
+        
+        <p>Type something in the input field to search the table:</p>
+        <input id="venueInput" type="text" placeholder="Search..">
+        <br>
+        <br>
+        
+        <p>Click on the links below for more information:</p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Venue Information</th>
+                        <th>Address</th>
+                        <th>Website Link</th>
+                    </tr>
+                </thead>
+                <tbody id="venueTable">
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Royal_Albert_Hall" target="_blank">Royal Albert Hall</a></td>
+                        <td>Kensington Gore, South Kensington, London SW7 2AP</td>
+                        <td><a href="https://www.royalalberthall.com/" target="_blank">Visit Official Site</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Wembley_Arena" target="_blank">Wembley SSE Arena</a></td>
+                        <td>Arena Square, Engineers Way, London HA9 0AA</td>
+                        <td><a href="https://www.ssearena.co.uk/" target="_blank">Visit Official Site</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Kew_Gardens" target="_blank">Kew Gardens</a></td>
+                        <td>Richmond TW9 3AB</td>
+                        <td><a href="https://www.kew.org/" target="_blank">Visit Official Site</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/The_O2_Arena" target="_blank">O2 Arena</a></td>
+                        <td>Peninsula Square, Greenwich Peninsula, London SE10 0DX</td>
+                        <td><a href="https://www.theo2.co.uk/" target="_blank">Visit Official Site</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="border border-info">
+        <h3>Click on the star to zoom in on the venue location:</h3>
+        <br>
+
+        <img src="img/london.GIF" alt="Planets" usemap="#londonmap" class="mx-auto d-block">
+
+        <map name="londonmap">
+            <area shape="circle" coords="167,56,20,20" alt="WembleySSE" href="img/wembley.GIF" title="Wembly SSE Arena">
+            <area shape="circle" coords="566,403,20,20" alt="RoyalAlbertHall" href="img/royalalbert.GIF" title="Royal Albert Hall">
+            <area shape="circle" coords="115,540,20,20" alt="KewGardens" href="img/kewgardens.GIF" title="Kew Gardens">
+            <area shape="circle" coords="1254,391,20,20" alt="O2 Arena" href="img/o2arena.GIF" title="O2 Arena">
+        </map>
+    </div>
+
+    <br>
+
+    <footer>
+        <div class="footerMain">
+
+            <div class="footerTitle">
+                <h1>Summer Gigs Newsletter</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="quickLinks col-md-3">
+                    <!-- Column 1: Quick links to the main pages of the site -->
+                    <h4>Quick links:</h4>
+                    <ul>
+                        <li id="home"><a href="index.html">Home</a></li>
+                        <li id="tickets"><a href="videos.html">Videos</a></li>
+                        <li id="about"><a href="bands.html">Bands</a></li>
+                        <li id="about"><a href="venues.html">Venues</a></li>
+                        <li id="about"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="faqs col-md-3">
+                    <!-- Column 2: FAQs. This could be made to be expandable using CSS. I.E. only the questions are shown, with a (+) link to expand answers -->
+                    <h4>Frequently Asked Questions:</h4>
+                    <ul>
+                        <li><strong>How can I buy tickets? </strong>See <a href="#">here</a></li>
+                    </ul>
+                </div>
+
+                <div class="contactUs col-md-3">
+                    <!-- Column 3: Information regarding main methods of contacting Wesley -->
+                    <h4>Contact us:</h4>
+                    <ul>
+                        <li id="name"><strong>Name: </strong>Summer Gigs Ltd.</li>
+                        <li id="address"><strong>Address: </strong>123 Fun Street, Rocktown, TW20 1TV</li>
+                        <li id="e-mail"><strong>Email: </strong><a href="wesley@summergigs.com">wesley@summergigs.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="socialMedia col-md-3">
+                    <!-- Links to primary social media platforms; each link opens in new tab -->
+                    <h4>Social Media</h4>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.png" alt="Facebook" width="32" height="32" alt="facebook icon"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/ig.png" alt="Instagram" width="32" height="32" alt="instagram icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="img/tw.png" alt="Twitter" width="32" height="32" alt="twitter icon"></a>
+                    <a href="https://www.snapchat.com/" target="_blank"><img src="img/sc.png" alt="Snapchat" width="32" height="32" alt="snapchat icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="img/yt.png" alt="YouTube" width="32" height="32" alt=youtube icon></a>
+                </div>
+
+            </div>
+
+            <div class="safetyNotice">
+                <!-- Safety disclaimer. Could be changed to a pop-up/overlay when .js added to site -->
+                <p><strong>Legal Disclaimer:</strong> Wesley's Summer Gigs does not take any responsibility for any losses incurred as a result of using this site.</p>
+            </div>
+
+            <div class="copyrightNotice">
+                <!-- Copyright information -->
+                <p>&copy; 2019 Wesley's Summer Gigs. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+<!--JS and JQuery code copied from W3Schools website then modified-->
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        $(document).ready(function(){
+            $("#venueInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#venueTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</body></html>
